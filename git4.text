@@ -1,0 +1,13 @@
+git hub = リモートリポジトリ
+https://github.com/rea-jin/git_pra
+　リモートリポジトリを登録する場合は
+git remote add origin https~とする
+originというのはgitがリモートリポジトリにデフォルトでつけるリポジトリの名前
+git_pra = origin
+
+まずローカルからpush
+
+git には誰が変更したか、ハッシュ値と日付とメッセージが出る
+行をクリックするとマーカーが引かれて共有した URLが生成される
+RAWはファイルの中身が観れる
+Blameは誰がいつ変更したか観れる

@@ -3,3 +3,17 @@ git rm で削除してステージング
 ファイルを変更すると
 git statusした時に
 changes not stages for commitと出る
+git addしてステージングしたあと
+git statusすると
+changes to be commitと出る
+
+git log でコミットのハッシュ値。筆者、日付、コミットメッセージもみれる
+git log --online １行で表示
+git log -p ファイル名　ファイルの差分を表示する　ファイル名ないと全ての差分
+git log -n 3 最新の3つまで表示
+
+qで終了する
+
+git diff はローカルとステージング領域の差分を確認する
+git add . すると　git diffでは何も表示されないが、
+git diff HEADでは最終的なステージングとの差分が表示される
