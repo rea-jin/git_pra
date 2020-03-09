@@ -1,2 +1,5 @@
 git3の中身
 git rm で削除してステージング
+ファイルを変更すると
+git statusした時に
+changes not stages for commitと出る
