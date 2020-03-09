@@ -34,3 +34,4 @@ git checkout ファイル名　・・・これでファイルをローカルに�
 
 git管理からだけ外して、ファイルは残しておきたい場合には
 git rm --cached file.text
+.gitignore.textにファイル名を書く
