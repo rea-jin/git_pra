@@ -1,1 +1,3 @@
 バージョン管理したいフォルダでgit initと打つ
+git add.
+git commit
