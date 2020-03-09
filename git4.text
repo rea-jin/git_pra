@@ -24,8 +24,13 @@ Blameは誰がいつ変更したか観れる
 これらをgitignoreに書いて管理から外す。
 
 もし、書くのを忘れてpushしてしまった場合。git rmを使う
-git rm file.text
+git rm file.text  .......  ローカルのファイルも消えて、管理からも外れる
 git rm -r directory
+消したファイルを戻したい場合。
+git reset HEAD ファイル名　。。。。これでgitの管理から最終保存のファイルを戻せる
+ローカルには戻ってないので、
+git checkout ファイル名　・・・これでファイルをローカルに復元できる
 
-管理から外して、ファイルは残しておきたい場合には
+
+git管理からだけ外して、ファイルは残しておきたい場合には
 git rm --cached file.text
