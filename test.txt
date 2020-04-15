@@ -4,13 +4,11 @@ aaaa
 flow
 test pull request
 testtesttest
-<<<<<<< HEAD
-<<<<<<< HEAD
+順番を変えることでconflictがおきた
 =======
 bbbbbbbb
 commit rebase
 ccccccccccc
-<<<<<<< HEAD
 >>>>>>> 62c27e0... commit2
 =======
 ddddddddddd
